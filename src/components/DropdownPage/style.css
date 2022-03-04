@@ -1,0 +1,24 @@
+.dropdown-container {
+  display: flex;
+  width: 400px;
+  margin-right: 10px;
+  flex: 50%;
+}
+.tag {
+  width: 100%;
+  font-size: 14px;
+  color: #333;
+  font-style: italic;
+  background-color: #f3f3f3;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  padding: 10px 40px 10px 15px;
+  box-sizing: border-box;
+  outline: none;
+}
+@media (max-width: 800px) {
+  .dropdown-container {
+    flex: 100%;
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,30 @@
+.searchBar {
+  display: flex;
+  justify-content: center;
+  flex: 50%;
+}
+.search-container {
+  width: 400px;
+}
+input {
+  width: 100%;
+
+  background-color: #f3f3f3;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  padding: 10px 40px 10px 15px;
+  box-sizing: border-box;
+  outline: none;
+}
+input::placeholder {
+  color: #333;
+  font-size: 14px;
+  font-style: italic;
+}
+
+@media (max-width: 800px) {
+  .searchBar {
+    flex: 100%;
+    margin-top: 10px;
+  }
+}

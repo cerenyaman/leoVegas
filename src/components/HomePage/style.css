@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container-leovegas {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+}
+
+@media (max-width: 800px) {
+  .container-leovegas {
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  .header {
+    flex-direction: column;
+    margin-top: 10px !important;
+  }
+}

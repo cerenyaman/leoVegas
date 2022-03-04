@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: rgba(0, 0, 0, 0.966) !important;
+}
+.btn-dark {
+  background-color: black;
+  width: 130px;
+}
+.btn-dark > a {
+  color: white !important;
+}
+.btn-primary:hover {
+  background-color: rgb(206, 149, 149);
+  border-color: rgb(206, 149, 149);
+}
+.card {
+  margin: 10px !important;
+  padding: 10px;
+}

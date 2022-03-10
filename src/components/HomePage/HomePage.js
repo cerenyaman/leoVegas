@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
+//pages
 import axios from "axios";
 //components
 import ProductCard from "../ProductCard/ProductCard";
 import SearchPage from "../SearchPage/SearchPage";
 import DropDownPage from "../DropdownPage/DropDownPage";
+//utils
 import { unique } from "../../utils/arrayFunctions";
 //images for png
 import Vegas from "../../images/vegas.png";

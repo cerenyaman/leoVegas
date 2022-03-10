@@ -17,9 +17,7 @@ function Product() {
   }, []);
 
   useEffect(() => {
-    if (product !== null) {
-      setFiltered(product.find((item) => item.slug === gameName));
-    }
+    setFiltered(product.find((item) => item.slug === gameName));
   }, [product]);
 
   if (filtered) {
